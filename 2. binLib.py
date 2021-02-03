@@ -1,5 +1,4 @@
 #!/bin/env python3
-
 """
 follow : @qywok_exploiter_357
 """
