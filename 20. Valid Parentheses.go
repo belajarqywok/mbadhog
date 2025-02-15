@@ -1,5 +1,5 @@
 func isValid(s string) bool {
-  // Mapping bracket pairs
+  	// Mapping bracket pairs
 	bracketMap := map[rune]rune{
 		')': '(',
 		'}': '{',
@@ -9,7 +9,7 @@ func isValid(s string) bool {
 	// Stack buat nyimpen karakter pembuka
 	stack := []rune{}
 
-  // nilai s = "[()]"
+ 	 // nilai s = "[()]"
 	for _, char := range s {
 		// Jika karakter adalah closing bracket
 		// iter 1 -> [ -> open: kosong, found: false; stack -> []
